@@ -38,7 +38,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" revision="pie" />
 
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="mld" revision="p9x-caf" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mld" revision="p9x1" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mld" revision="p9x-caf" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio-caf-sdm660" name="hardware_qcom_audio-caf-sdm660" remote="mld" revision="p9x" />
