@@ -60,8 +60,8 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="mld" revision="p9x" />
   <project path="vendor/support" name="android_vendor_support" remote="mld" revision="p9x" />
-  <project path="vendor/du" name="android_vendor_du" remote="mld" revision="p9x-caf" >
   <project path="vendor/themes" name="android_vendor_themes" remote="mld" revision="p9x-caf" />
+  <project path="vendor/du" name="android_vendor_du" remote="mld" revision="p9x-caf" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
 
   </project>
