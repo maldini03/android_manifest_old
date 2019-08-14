@@ -42,7 +42,6 @@
   <project path="external/perfetto" name="android_external_perfetto" remote="du" />
   <project path="external/protobuf" name="android_external_protobuf" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" revision="p9x-caf" />
 
   <!-- Frameworks -->
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="du" />
