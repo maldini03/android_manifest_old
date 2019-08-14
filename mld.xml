@@ -41,7 +41,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="mld" revision="rbs" />
   <project path="frameworks/av" name="android_frameworks_av" remote="mld" revision="p9x" />
   <project path="frameworks/native" name="android_frameworks_native" remote="mld" revision="p9x" />
-  <project path="frameworks/base" name="du_frameworks_base" remote="mld" revision="rls5" />
+  <project path="frameworks/base" name="du_frameworks_base" remote="mld" revision="rls6" />
 
   <!-- Device -->
   <project path="device/du/sepolicy" name="device_aosip_sepolicy" remote="mld" revision="pie" /> 
@@ -55,6 +55,7 @@
   <project path="hardware/qcom/media-caf-sdm660" name="hardware_qcom_media-caf-sdm660" remote="mld" revision="p9x" />
   <project path="hardware/qcom/display-caf-sdm660" name="hardware_qcom_display-caf-sdm660" remote="mld" revision="p9x" />
   <project path="hardware/interfaces" name="Genkzsz11/hardware_interfaces" remote="gh" revision="p9xx" />
+  <project path="hardware/qcom/vr" name="platform_hardware_qcom_vr" remote="aosip" revision="pie" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="mld" revision="lock" />
