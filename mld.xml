@@ -30,6 +30,7 @@
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="aosip" revision="pie" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="aosip" revision="pie" />
   <project path="external/tinycompress" name="flat-project/android_external_tinycompress" remote="gh" revision="lineage-16.0" />
+  <project path="external/skia" name="external_skia" remote="mld" revision="p9x-caf" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" clone-depth="1" remote="aosip" revision="pie" />
