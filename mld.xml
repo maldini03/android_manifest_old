@@ -12,6 +12,7 @@
 
   <project path="art" name="platform_art" remote="aosip" revision="pie" />
   <project path="bionic" name="android_bionic" remote="mld" revision="p9x" />
+  <project path="development" name="LineageOS/android_development" remote="gh" revision="lineage-16.0" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="mld" revision="p9x">
