@@ -55,7 +55,6 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="p9x-caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="p9x-caf" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="p9x-caf" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="p9x-caf" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="p9x-caf" />
 
