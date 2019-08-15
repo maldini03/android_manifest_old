@@ -142,6 +142,7 @@
   <remove-project name="platform/packages/screensavers/WebView" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
@@ -161,5 +162,8 @@
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/development" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/external/skia" />
 
 </manifest>
