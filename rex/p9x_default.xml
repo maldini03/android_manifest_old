@@ -21,6 +21,8 @@
 
   <!-- DU REPOS -->
 
+  <project path="bionic" name="android_bionic" remote="du" />
+
   <!-- General -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="du" />
   <project path="build/kati" name="android_build_kati" remote="du" />
