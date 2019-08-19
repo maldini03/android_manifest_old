@@ -7,8 +7,12 @@
 <remote name="rex"
         fetch="https://github.com/du-rex/" />
 
+  <project path="art" name="android_art" remote="rex" revision="p9x-caf" />
+  <project path="bionic" name="android_bionic" remote="rex" revision="wip" />
+  <project path="development" name="android_development" remote="rex" revision="p9x-caf" />
+
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="rex" revision="p9x-caf">
+  <project path="build/make" name="android_build" remote="rex" revision="wip">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,6 +20,12 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/kati" name="android_build_kati" remote="rex" />
+  <project path="build/soong" name="android_build_soong" remote="rex" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- External -->
@@ -33,7 +43,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="rex" revision="p9x-caf" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rex" revision="p9x-caf" />
   <project path="frameworks/av" name="android_frameworks_av" remote="rex" revision="p9x-caf" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="rex" revision="p9x-caf" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="rex" revision="wip" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rex" revision="p9x-dev" />
 
   <!-- Device -->
@@ -55,7 +65,7 @@
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="rex" revision="p9x-caf" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="rex" revision="p9x-caf" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="rex" revision="p9x-dev" />
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rex" revision="p9x-caf" />
@@ -78,7 +88,7 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="rex" revision="p9x-caf" />
   <project path="vendor/support" name="android_vendor_support" remote="rex" revision="p9x-caf" />
   <project path="vendor/themes" name="android_vendor_themes" remote="rex" revision="p9x-dev" />
-  <project path="vendor/du" name="android_vendor_du" remote="rex" revision="p9x-dev" >
+  <project path="vendor/du" name="android_vendor_du" remote="rex" revision="wip" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
 
   </project>

@@ -21,17 +21,9 @@
 
   <!-- DU REPOS -->
 
-  <project path="bionic" name="android_bionic" remote="du" />
-
   <!-- General -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" />
-  <project path="build/kati" name="android_build_kati" remote="du" />
-  <project path="build/soong" name="android_build_soong" remote="du" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="manifest" name="android_manifest" remote="du" revision="p9x-caf" />
-
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" />
 
   <!-- External -->
   <project path="external/bson" name="android_external_bson" remote="du" revision="p9x-caf" />
@@ -54,9 +46,7 @@
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="du" revision="p9x-caf" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="du" revision="p9x-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="p9x-caf" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="p9x-caf" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="p9x-caf" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="p9x-caf" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="p9x-caf" />
 

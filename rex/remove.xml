@@ -54,6 +54,10 @@
   <remove-project name="platform/external/protobuf" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/elfutils" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libtextclassifier" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/av" />
@@ -103,6 +107,8 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -149,6 +155,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/build-tools" />
@@ -163,5 +170,7 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/development" />
+  <remove-project name="platform/art" />
 
 </manifest>

@@ -731,5 +731,5 @@
   <!-- Add all tracked DU-REX repos -->
   <include name="rex/p9x_default.xml" />
   <include name="rex/du-rex.xml" />
-
+  <include name="rex/los.xml" />
 </manifest>
