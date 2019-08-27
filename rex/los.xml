@@ -15,6 +15,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" remote="los" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="los" revision="lineage-16.0-caf-8998" />
   <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" remote="los" revision="lineage-16.0-caf-8150" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
@@ -25,6 +26,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" remote="los" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="los" revision="lineage-16.0-caf-8998" />
   <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" remote="los" revision="lineage-16.0-caf-8150" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" />
@@ -39,6 +41,8 @@
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-8150" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-8998" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="los" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="los" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
@@ -53,5 +57,7 @@
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
 
 </manifest>
