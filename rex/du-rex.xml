@@ -10,6 +10,7 @@
   <project path="art" name="android_art" remote="rex" revision="p9x-caf" />
   <project path="bionic" name="android_bionic" remote="rex" revision="p9x-caf" />
   <project path="development" name="android_development" remote="rex" revision="p9x-caf" />
+  <project path="libcore" name="android_libcore" remote="rex" revision="p9x-caf" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="rex" revision="p9x-caf">
@@ -46,6 +47,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="rex" revision="p9x-caf" />
   <project path="frameworks/native" name="android_frameworks_native" remote="rex" revision="p9x-caf" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rex" revision="shi" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="rex" revision="p9x-caf" />
 
   <!-- Device -->
   <project path="device/du/sepolicy" name="device_du_sepolicy" remote="rex" revision="p9x-caf" />
