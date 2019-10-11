@@ -68,6 +68,9 @@
   <project path="system/nfc" name="android_system_nfc" remote="rex" revision="10" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="rex" revision="10" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="rex" revision="10" />
+
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rex" revision="10" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="rex" revision="10" />
