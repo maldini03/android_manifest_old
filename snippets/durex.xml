@@ -56,6 +56,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="rex" revision="10" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="rex" revision="10" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="rex" revision="10" />
+  <project path="hardware/qcom/display-caf/headers" name="android_hardware_qcom_display-caf_headers" remote="rex" revision="10" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="rex" revision="10" />
@@ -89,6 +90,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rex" revision="10" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="rex" revision="10" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="rex" revision="10" />
+  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="rex" revision="10" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="rex" revision="10" />
