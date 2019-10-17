@@ -10,9 +10,11 @@
   <project path="art" name="android_art" remote="rex" revision="10" />
   <project path="bionic" name="android_bionic" remote="rex" revision="10" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="rex" revision="10" />
+  <project path="platform_testing" name="android_platform_testing" remote="rex" revision="10" />
+  <project path="development" name="android_development" remote="rex" revision="10" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="rex" revision="10">
+  <project path="build/make" name="android_build" remote="rex" revision="10-dev">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -51,12 +53,10 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="rex" revision="10" />
   <project path="hardware/du/interfaces" name="android_hardware_du_interfaces" remote="rex" revision="10" />
-  <project path="hardware/qcom-caf/power" name="android_hardware_qcom_power" remote="rex" revision="10" />
   <project path="hardware/ril" name="android_hardware_ril" remote="rex" revision="10" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="rex" revision="10" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="rex" revision="10" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="rex" revision="10" />
-  <project path="hardware/qcom/display-caf/headers" name="android_hardware_qcom_display-caf_headers" remote="rex" revision="10" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="rex" revision="10" />
@@ -73,12 +73,13 @@
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="rex" revision="10" />
 
   <!-- Packages -->
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rex" revision="10" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="rex" revision="10" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="rex" revision="10" />
+  <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="rex" revision="10" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="rex" revision="10" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rex" revision="10" />
   <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="rex" revision="10-dev" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rex" revision="10" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rex" revision="10-dev" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="rex" revision="10" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="rex" revision="10" />
@@ -91,13 +92,13 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="rex" revision="10" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="rex" revision="10" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="rex" revision="10" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="rex" revision="10" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="rex" revision="10" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="rex" revision="10" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="rex" revision="10" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="rex" revision="10" />
-  <project path="vendor/du" name="android_vendor_du" remote="rex" revision="10" >
-    <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="rex" revision="10-dev" />
+  <project path="vendor/du" name="android_vendor_du" remote="rex" revision="10"/>
 
-  </project>
 </manifest>

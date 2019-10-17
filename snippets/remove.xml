@@ -59,6 +59,8 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/kati" />
+  <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/development" />
 
   <!-- External -->
   <remove-project name="platform/external/ARMComputeLibrary" />
@@ -115,6 +117,7 @@
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
