@@ -60,6 +60,7 @@
   <remove-project name="platform/test/vti/alert" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
@@ -72,6 +73,7 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
@@ -124,6 +126,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/turbine" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/zlib" />
 
@@ -219,6 +222,7 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -252,6 +256,8 @@
   <!-- Provider repos -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/TvProvider" />
 
   <!-- Service repos -->
   <remove-project name="platform/packages/services/Telecomm" />
