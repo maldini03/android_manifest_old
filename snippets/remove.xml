@@ -71,6 +71,7 @@
   <remove-project name="platform/external/google-api-services-storage" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
@@ -138,6 +139,7 @@
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/tools/hidl" />
@@ -260,6 +262,7 @@
   <remove-project name="platform/packages/providers/TvProvider" />
 
   <!-- Service repos -->
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
