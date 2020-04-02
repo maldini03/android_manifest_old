@@ -13,7 +13,12 @@
   <remote  name="du"
            revision="q10x"
            fetch="https://github.com/DirtyUnicorns/" />
-
+           
+  <!-- LineageOS remote -->
+  <remote name="lineage"
+          revision="lineage-17.1"
+          fetch="https://github.com/LineageOS/" />
+          
   <!-- DU REPOS -->
 
   <!-- General -->
@@ -49,22 +54,17 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="du" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="du" revision="q10x-caf-8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="du" revision="q10x-caf-8998" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="du" revision="q10x-caf-8996" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="du" revision="q10x-caf-8998" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="du" revision="q10x-caf-8996" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="du" revision="q10x-caf-8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-17.1-caf-msm8998" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="du" revision="q10x-caf" />
 
   <!-- Packages -->
@@ -105,5 +105,33 @@
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
   <project path="vendor/support" name="android_vendor_support" remote="du" />
   <project path="vendor/themes" name="android_vendor_themes" remote="du" />
+  
+  <!-- Extras Repo's for My Device -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="du" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="du" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="du" />
+  
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="du" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="du" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="du" />
+  
+  <!-- DeviceSettings -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+  
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="du" revision="q10x-legacy" />
+  
+  <!-- Nxp -->
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="du" />
+  <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="du" />
+  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="du" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="du" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_opensource_interfaces_nfc" remote="du" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="du" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="du" />
+
 
 </manifest>
