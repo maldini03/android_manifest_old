@@ -105,11 +105,11 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="du" />
 
   <!-- Vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="du" >
+  <project path="vendor/du" name="android_vendor_du" remote="mld" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="mld" />
-  <project path="vendor/support" name="android_vendor_support" remote="mld" />
+  <project path="vendor/support" name="android_vendor_support" remote="du" />
   <project path="vendor/themes" name="android_vendor_themes" remote="du" />
   
   <!-- Extras Repo's for My Device -->
