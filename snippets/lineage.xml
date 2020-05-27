@@ -37,7 +37,6 @@
   <project path="external/ppp" name="android_external_ppp" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
-  <project path="external/skia" name="android_external_skia" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
 
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="lineage" />

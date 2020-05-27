@@ -32,6 +32,9 @@
   <project path="device/zproject/sepolicy" name="android_device_zproject_sepolicy" remote="mld" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="mld" />
 
+
+  <project path="external/skia" name="android_external_skia" remote="mld" />
+  
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="mld" />
   <project path="frameworks/base" name="android_frameworks_base-1" remote="mld" />
