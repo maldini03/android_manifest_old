@@ -39,6 +39,9 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="mld" />
   <project path="frameworks/base" name="android_frameworks_base-1" remote="mld" />
   <project path="frameworks/native" name="android_frameworks_native" remote="mld" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="mld" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="mld" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mld" />
 
   <!-- Hardware -->
   <project path="hardware/zproject/interfaces" name="android_hardware_zproject_interfaces" remote="mld" />

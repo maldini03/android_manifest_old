@@ -39,10 +39,6 @@
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
 
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="lineage" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="lineage" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
-
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lineage" />
