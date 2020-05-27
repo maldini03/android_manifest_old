@@ -8,7 +8,7 @@
           fetch="https://gitlab.com" />
 
   <remote name="mld"
-          fetch="https://github.com/maldini03/"
+          fetch="https://github.com/maldini03"
           revision="ten" />
 
   <project path="manifest" name="android_manifest" remote="mld" />
