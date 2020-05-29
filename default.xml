@@ -788,8 +788,8 @@
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- Z additions -->
-  <include name="snippets/z.xml" />
+  <!-- DK additions -->
+  <include name="snippets/dk.xml" />
   <include name="snippets/lineage.xml" />
 
 </manifest>
