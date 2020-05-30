@@ -36,7 +36,7 @@
 
   <!-- External -->
   <project path="external/skia" name="android_external_skia" remote="mld" revision="ten" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="mld" revision="ten" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="mld" />
   
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="mld" />
