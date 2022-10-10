@@ -28,7 +28,7 @@
           review="https://review.arrowos.net/"
           revision="refs/heads/arrow-13.0" />
 
-  <project path="manifest" name="android_manifest" remote="banana" />
+  <project path="manifest" name="maldini03/android_manifest" remote="github" revision="13x" />
   <project path="bionic" name="android_bionic" remote="banana" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="banana" />
   <project path="official-maintainers" name="official-maintainers" remote="banana-devices" revision="master" />
