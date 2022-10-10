@@ -23,7 +23,7 @@
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-20.0" />
 
-  <remote name="banana"
+  <remote name="arrow"
           fetch="https://github.com/ArrowOS"
           review="https://review.arrowos.net/"
           revision="refs/heads/arrow-13.0" />
@@ -93,7 +93,7 @@
 
   <!-- Vendor -->
   <project path="vendor/banana" name="android_vendor_banana" remote="banana" />
-  <project path="vendor/gms" name="android_vendor_gapps" clone-depth="1" remote="banana-gitlab" />
+  <project path="vendor/gms" name="android_vendor_gapps" clone-depth="1" remote="banana-gitlab" revision="12" />
   <project path="vendor/support" name="android_vendor_support" remote="banana" revision="12" />
 
 </manifest>
