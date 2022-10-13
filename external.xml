@@ -2,19 +2,19 @@
 <manifest>
 
   <!-- External -->
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="arrow" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="arrow" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="arrow" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="arrow" />
-  <project path="external/mksh" name="android_external_mksh" remote="arrow" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
-  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
-  <project path="external/selinux" name="android_external_selinux" remote="arrow" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="arrow" />
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/selinux" name="android_external_selinux" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
 
   <!-- Hardware -->
@@ -92,7 +92,7 @@
   <project path="system/vold" name="android_system_vold" remote="lineage" />
 
   <!-- Vendor -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
   <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="arrow" />
   <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="arrow" />
