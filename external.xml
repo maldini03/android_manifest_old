@@ -13,7 +13,7 @@
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
-  <project path="external/selinux" name="android_external_selinux" remote="lineage" />
+  <project path="external/selinux" name="android_external_selinux" remote="arrow" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
 
