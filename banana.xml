@@ -70,9 +70,8 @@
   <!-- Hardware -->
   <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="banana" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="banana" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="banana" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
 
   <!-- Packages -->
   <project path="packages/apps/BananaPaper" name="android_packages_apps_BananaPaper" remote="banana" revision="12" />
