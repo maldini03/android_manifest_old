@@ -1174,5 +1174,5 @@
   <!-- BananaDroid -->
   <include name="remove.xml" />
   <include name="banana.xml" />
-  <include name="external.xml" />
+  <include name="others.xml" />
 </manifest>
