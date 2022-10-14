@@ -21,12 +21,12 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           review="https://review.lineageos.org/"
-          revision="refs/heads/lineage-20.0" />
+          revision="lineage-20.0" />
 
   <remote name="arrow"
           fetch="https://github.com/ArrowOS"
           review="https://review.arrowos.net/"
-          revision="refs/heads/arrow-13.0" />
+          revision="arrow-13.0" />
 
   <project path="manifest" name="maldini03/android_manifest" remote="github" revision="13x" />
   <project path="bionic" name="android_bionic" remote="banana" />
