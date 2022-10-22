@@ -38,7 +38,6 @@
 
   <!-- external -->
   <remove-project name="platform/external/arm-optimized-routines" />
-  <remove-project name="platform/external/colorkt" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/fastrpc" />
