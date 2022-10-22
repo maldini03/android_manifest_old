@@ -24,7 +24,6 @@
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" remote="github" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="github" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="github" />
-  <project path="external/selinux" name="crdroidandroid/android_external_selinux" remote="github" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="github" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="github" />
   <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="github" />
